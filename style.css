@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: #222;
-    background-color: linear-gradient(#a0f8e9, #16516d);
+    background-color: linear-gradient(#a0f8e9, #16516d); opacity: 1;
     background-size: cover;
     color: #fff;
     font-size: 120%;
@@ -20,8 +20,15 @@ body {
     width: 100%;
     max-width: 420px;
     margin: 1em;
+    opacity: 0,5;
+  }
+  img {
+    opacity: 0.5;
   }
   
+  img:hover {
+    opacity: 1.0;
+  }
   .search {
     display: flex;
     align-items: center;
